@@ -43,6 +43,16 @@ public class UserController {
     }
 
     /**
+     * 确认密码
+     */
+    @PostMapping("confirmPassword")
+    @Decrypt
+    @Encrypt
+    public Result<SysUserVo> confirmPassword(SysUserVo sysUserVo) {
+        return userService.confirmPassword(sysUserVo.getOldPassword());
+    }
+
+    /**
      * 修改密码
      */
     @PostMapping("updatePassword")

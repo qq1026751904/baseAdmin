@@ -20,7 +20,7 @@ function updatePassword() {
         "\t<div class=\"layui-form-item\">\n" +
         "\t\t<label class=\"layui-form-label\" style='width: 110px !important;'>原密码</label>\n" +
         "\t\t<div class=\"layui-input-block\">\n" +
-        "\t\t\t<input type=\"text\" name=\"oldPassword\" autocomplete=\"off\"\n" +
+        "\t\t\t<input type=\"text\" id=\"oldPassword\" name=\"oldPassword\" autocomplete=\"off\"\n" +
         "\t\t\t\t   placeholder=\"原密码\" class=\"layui-input\">\n" +
         "\t\t</div>\n" +
         "\t</div>\n" +
@@ -32,7 +32,7 @@ function updatePassword() {
         "\t\t</div>\n" +
         "\t</div>\n" +
         "\t<div class=\"layui-form-item\">\n" +
-        "\t\t<div class=\"layui-input-block\">\n" +
+        "\t\t<div class=\"layui-input-block\" style='margin-left: 170px'>\n" +
         "\t\t\t<a class=\"layui-btn\" onclick=\"" +
         "    $.post(ctx + '/user/updatePassword', $('#updatePassword').serializeObject(), function (data) {\n" +
         "        if (data.flag) {\n" +
@@ -55,5 +55,29 @@ function updatePassword() {
         fixed: false, //不固定
         maxmin: true,
         content: html
+    });
+
+    /**
+     * 确认密码
+     */
+    $("#oldPassword").blur(function(){
+        var value = this.value;
+        $.ajax({
+            url: "/user/confirmPassword",
+            dataType: "json",
+            async: false,
+            data: {oldPassword:value},
+            type: "post",
+            beforeSend: function () {
+            },
+            success: function (msg) {
+                if(msg.flag != true){
+                alert(msg.msg);
+                }
+            },
+            error: function () {
+                alert("发生异常，请联系管理员");
+            }
+        })
     });
 }

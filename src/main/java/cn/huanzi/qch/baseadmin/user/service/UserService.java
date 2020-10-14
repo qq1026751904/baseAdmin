@@ -7,4 +7,6 @@ public interface UserService {
     Result<SysUserVo> updatePassword(String oldPassword, String newPassword);
 
     Result<SysUserVo> updateUser(SysUserVo sysUserVo);
+
+    Result<SysUserVo> confirmPassword(String oldPassword);
 }
