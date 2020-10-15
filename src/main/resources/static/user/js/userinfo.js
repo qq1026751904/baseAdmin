@@ -72,7 +72,7 @@ function updatePassword() {
             },
             success: function (msg) {
                 if(msg.flag != true){
-                alert(msg.msg);
+                    layer.msg(msg.msg, {icon: 5});
                 }
             },
             error: function () {
