@@ -10,11 +10,11 @@ import cn.huanzi.qch.baseadmin.util.UUIDUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.annotations.NotFound;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.util.StringUtils;
 
-import javax.annotation.Resource;
 import javax.persistence.Id;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
@@ -38,7 +38,7 @@ public class CommonServiceImpl<V, E, T> implements CommonService<V, E, T> {
 
     private Class<E> entityClass;//实体类
 
-    @Resource
+    @Autowired
     private CommonRepository<E, T> commonRepository;//注入实体类仓库
 
     public CommonServiceImpl() {
