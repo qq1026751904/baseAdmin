@@ -156,4 +156,12 @@ public class CommonServiceImpl<V, E, T> implements CommonService<V, E, T> {
         commonRepository.deleteById(id);
         return Result.of(id);
     }
+
+    @Override
+    public Result<V> insert(V entityVo){
+        E entity = CopyUtil.copy(entityVo, entityClass);
+        E e = commonRepository.save(entity);
+        return Result.of(CopyUtil.copy(e, entityVoClass));
+    }
+
 }

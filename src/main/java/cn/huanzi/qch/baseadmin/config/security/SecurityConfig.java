@@ -125,6 +125,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     public DynamicallyUrlInterceptor dynamicallyUrlInterceptor(){
         //首次获取
+        System.err.println("==>sysAuthorityService.list<==");
         List<SysAuthorityVo> authorityVoList = sysAuthorityService.list(new SysAuthorityVo()).getData();
         myFilterInvocationSecurityMetadataSource.setRequestMap(authorityVoList);
         //初始化拦截器并添加数据源

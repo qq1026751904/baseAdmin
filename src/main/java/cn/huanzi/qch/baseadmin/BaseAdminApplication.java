@@ -139,15 +139,18 @@ class IndexController {
         modelAndView.addObject("sys", SysSettingUtil.getSysSetting());
 
         //登录用户
+        System.err.println("==>sysUserService.findByLoginName<==");
         SysUserVo sysUserVo = sysUserService.findByLoginName(SecurityUtil.getLoginUser().getUsername()).getData();
         sysUserVo.setPassword(null);//隐藏部分属性
         modelAndView.addObject( "loginUser", sysUserVo);
 
         //登录用户系统菜单
+        System.err.println("==>sysUserMenuService.findByUserId<==");
         List<SysMenuVo> menuVoList = sysUserMenuService.findByUserId(sysUserVo.getUserId()).getData();
         modelAndView.addObject("menuList",menuVoList);
 
         //登录用户快捷菜单
+        System.err.println("==>sysShortcutMenuService.findByUserId<==");
         List<SysShortcutMenuVo> shortcutMenuVoList= sysShortcutMenuService.findByUserId(sysUserVo.getUserId()).getData();
         modelAndView.addObject("shortcutMenuList",shortcutMenuVoList);
 

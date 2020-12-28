@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75403942-e227-45f4-85e8-27ce9dd0d7e0" name="Default Changelist" comment="@Resource-@Autowired">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/BaseAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/BaseAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/aspect/SafetyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/aspect/SafetyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/UserConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/util/CodeDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/util/CodeDOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/common/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/common/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/common/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/common/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/common/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/common/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="base@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="base@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/BaseAdminApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1653">
+              <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/view/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>11</find>
+      <find>layui-this</find>
+      <find>sysSettingMap</find>
+      <find>线程</find>
+      <find>连接池</find>
+      <find>dev</find>
+      <find>jpa</find>
+      <find>findByLoginName</find>
+      <find>persistentTokenRepository1</find>
+      <find>jdbc</find>
+      <find>security</find>
+      <find>sess</find>
+      <find>AsyncConfig</find>
+      <find>asyncTaskExecutor</find>
+      <find>asyncTask</find>
+      <find>listByTier</find>
+      <find>delete</find>
+      <find>save</find>
+      <find>resetPassword</find>
+      <find>PersistentTokenRepository</find>
+      <find>SessionRegistry</find>
+      <find>sessionRegistry</find>
+      <find>captcha</find>
+      <find>old</find>
+      <find>login</find>
+      <find>用户名或密码错误</find>
+      <find>onAuthenticationFailure</find>
+      <find>LoginFailureHandlerConfig</find>
+      <find>username</find>
+      <find>userConfig</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/aspect/SafetyAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysuser/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/user/userinfo.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/user/js/userinfo.js" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/dao/SysUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TestDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/dao/TestDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/service/TestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/service/impl/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/BaseAdminApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysauthority/controller/SysAuthorityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/util/CodeDOM.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/project/projectSurvey.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/common/layui/css/layui.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/MyInvalidSessionStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/CaptchaFilterConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/MyFilterInvocationSecurityMetadataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/project/projectEchart.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/project/projectDemo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/pojo/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/vo/ProjectVo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/common/jquery/jquery.js" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/util/SysSettingUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/pojo/PageInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/LoginSuccessHandlerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysuser/service/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="base-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="base-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="y" value="355" />
+    <option name="width" value="1386" />
+    <option name="height" value="516" />
+  </component>
+  <component name="ProjectId" id="1m5P2KZEGxGNIlU7QMugo6CywUn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608618672882" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ten/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\项目\base-admin\src\main\java\cn\huanzi\qch\baseadmin\entity\common" />
+      <recent name="E:\项目\base-admin\src\main\resources\static\js" />
+      <recent name="E:\项目\base-admin\src\main\resources\view\project" />
+      <recent name="E:\项目\base-admin\src\main\resources\static\common\jquery" />
+      <recent name="E:\项目\base-admin\src\main\resources\static\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\项目\base-admin\src\main\resources\static\js" />
+      <recent name="E:\项目\base-admin\src\main\resources\static\common\echarts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BaseAdminApplication">
+    <configuration name="CodeDOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.huanzi.qch.baseadmin.util.CodeDOM" />
+      <module name="base-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.huanzi.qch.baseadmin.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="base-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.huanzi.qch.baseadmin.BaseAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeDOM" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75403942-e227-45f4-85e8-27ce9dd0d7e0" name="Default Changelist" comment="" />
+      <created>1602558039554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602558039554</updated>
+      <workItem from="1602558045469" duration="2070000" />
+      <workItem from="1602560289142" duration="373000" />
+      <workItem from="1602560715183" duration="173000" />
+      <workItem from="1602560996054" duration="128000" />
+      <workItem from="1602570133465" duration="1120000" />
+      <workItem from="1602571323619" duration="477000" />
+      <workItem from="1602571990200" duration="1361000" />
+      <workItem from="1602637430947" duration="15861000" />
+      <workItem from="1602723528289" duration="21586000" />
+      <workItem from="1602808245485" duration="22468000" />
+      <workItem from="1603068138994" duration="23700000" />
+      <workItem from="1603154719605" duration="12431000" />
+      <workItem from="1603269712491" duration="596000" />
+      <workItem from="1603270487581" duration="1661000" />
+      <workItem from="1603351748275" duration="792000" />
+      <workItem from="1603696754612" duration="3508000" />
+      <workItem from="1603760773561" duration="1037000" />
+      <workItem from="1603762076380" duration="2286000" />
+      <workItem from="1604283145269" duration="18714000" />
+      <workItem from="1604365133056" duration="10898000" />
+      <workItem from="1604470359564" duration="40000" />
+      <workItem from="1604624196855" duration="1339000" />
+      <workItem from="1604648532482" duration="598000" />
+      <workItem from="1604886716184" duration="235000" />
+      <workItem from="1604905078610" duration="6887000" />
+      <workItem from="1604968197333" duration="524000" />
+      <workItem from="1604970948815" duration="262000" />
+      <workItem from="1604974258661" duration="1885000" />
+      <workItem from="1604987398589" duration="774000" />
+      <workItem from="1604991548385" duration="360000" />
+      <workItem from="1605056898323" duration="1499000" />
+      <workItem from="1605085242711" duration="791000" />
+      <workItem from="1605086995820" duration="284000" />
+      <workItem from="1605151144351" duration="617000" />
+      <workItem from="1605165276248" duration="152000" />
+      <workItem from="1605497522055" duration="451000" />
+      <workItem from="1606804246351" duration="1652000" />
+      <workItem from="1606890665438" duration="669000" />
+      <workItem from="1607911676977" duration="3000" />
+      <workItem from="1607911691871" duration="616000" />
+      <workItem from="1607926555556" duration="1464000" />
+      <workItem from="1607994466388" duration="2211000" />
+      <workItem from="1607997893821" duration="320000" />
+      <workItem from="1608012045114" duration="11030000" />
+      <workItem from="1608078866420" duration="22224000" />
+      <workItem from="1608116596794" duration="617000" />
+      <workItem from="1608166963893" duration="14852000" />
+      <workItem from="1608196361570" duration="318000" />
+      <workItem from="1608258109633" duration="7000" />
+      <workItem from="1608258123423" duration="2170000" />
+      <workItem from="1608263294958" duration="1369000" />
+      <workItem from="1608272145469" duration="2210000" />
+      <workItem from="1608513311684" duration="1020000" />
+      <workItem from="1608607200266" duration="2035000" />
+      <workItem from="1608619218598" duration="17000" />
+      <workItem from="1608780273038" duration="2019000" />
+      <workItem from="1608782922989" duration="10230000" />
+      <workItem from="1608857142093" duration="32000" />
+      <workItem from="1608857227859" duration="36000" />
+      <workItem from="1608857826599" duration="24000" />
+      <workItem from="1608857873176" duration="289000" />
+      <workItem from="1608858175905" duration="23545000" />
+      <workItem from="1609117798964" duration="16278000" />
+    </task>
+    <task id="LOCAL-00001" summary="原版本">
+      <created>1602646479018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602646479018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加失去焦点时确认原密码输入正误">
+      <created>1602663035593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602663035593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="基本资料页面取消水平滚动">
+      <created>1602663143586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602663143586</updated>
+    </task>
+    <task id="LOCAL-00004" summary="弹窗优化">
+      <created>1602751091052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602751091052</updated>
+    </task>
+    <task id="LOCAL-00005" summary="@Autowired改@Resource">
+      <created>1602810683105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602810683106</updated>
+    </task>
+    <task id="LOCAL-00006" summary="@Resource-@Autowired">
+      <created>1602813723593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602813723593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="222742000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5676127" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.757377" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52459013" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50226927" side_tool="true" weight="0.55573773" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.43278688" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.3295082" />
+      <window_info anchor="bottom" id="Problems" order="17" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.44704992" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
+      <window_info anchor="right" id="Database" order="11" weight="0.3295838" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="原版本" />
+    <MESSAGE value="添加失去焦点时确认原密码输入正误" />
+    <MESSAGE value="基本资料页面取消水平滚动" />
+    <MESSAGE value="弹窗优化" />
+    <MESSAGE value="@Autowired改@Resource" />
+    <MESSAGE value="@Resource-@Autowired" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Resource-@Autowired" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/monitor/MonitorWSServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysauthority/controller/SysAuthorityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/controller/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysauthority/service/SysAuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysauthority/vo/SysAuthorityVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysauthority/pojo/SysAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysauthority/repository/SysAuthorityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysmenu/vo/SysMenuVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/repository/CommonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysmenu/repository/SysMenuRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysusermenu/vo/SysUserMenuVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysuserauthority/service/SysUserAuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysusermenu/service/SysUserMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/util/CopyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="94" column="36" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysmenu/service/SysMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysusermenu/service/SysUserMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysusermenu/controller/SysUserMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="79" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/syssetting/controller/SysSettingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/syssetting/service/SysSettingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/syssetting/service/SysSettingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/pojo/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysuserauthority/controller/SysUserAuthorityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="156" column="29" lean-forward="true" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysshortcutmenu/controller/SysShortcutMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysshortcutmenu/service/SysShortcutMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysuser/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/session/SessionRegistryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysshortcutmenu/service/SysShortcutMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysauthority/service/SysAuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/sys/user/js/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysuser/service/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/CaptchaFilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="212" column="24" selection-start-line="212" selection-start-column="24" selection-end-line="212" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/LoginFailureHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysuser/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/UserConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysmenu/controller/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="120" column="40" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/sys/sysmenu/service/SysMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="52" column="64" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/BaseAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3892774" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

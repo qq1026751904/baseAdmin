@@ -20,7 +20,7 @@ public class CodeDOM {
      */
     private CodeDOM(String tableName) {
         this.tableName = tableName;
-        basePackage_ = "cn\\huanzi\\qch\\baseadmin\\sys\\";
+        basePackage_ = "cn\\huanzi\\qch\\baseadmin\\";
         package_ = basePackage_ + StringUtil.camelCaseName(tableName).toLowerCase() + "\\";
         //System.getProperty("user.dir") 获取的是项目所在路径，如果我们是子项目，则需要添加一层路径
         basePath = System.getProperty("user.dir") + "\\src\\main\\java\\" + package_;
@@ -30,9 +30,9 @@ public class CodeDOM {
     /**
      * 数据连接相关
      */
-    private static final String URL = "jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&characterEncoding=utf-8";
+    private static final String URL = "jdbc:mysql://localhost:3306/base?serverTimezone=GMT%2B8&characterEncoding=utf-8";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "123456";
+    private static final String PASSWORD = "root123";
     private static final String DRIVER_CLASSNAME = "com.mysql.jdbc.Driver";
     /**
      * 表名
@@ -528,11 +528,11 @@ public class CodeDOM {
         return tableName + " 后台代码生成完毕！";
     }
 
-//    public static void main(String[] args) {
-//        String[] tables = {"sys_user","sys_menu","sys_authority","sys_user_menu","sys_user_authority","sys_shortcut_menu","sys_setting"};
-//        for (String table : tables) {
-//            String msg = new CodeDOM(table).create();
-//            System.out.println(msg);
-//        }
-//    }
+    public static void main(String[] args) {
+        String[] tables = {"project"};
+        for (String table : tables) {
+            String msg = new CodeDOM(table).create();
+            System.out.println(msg);
+        }
+    }
 }

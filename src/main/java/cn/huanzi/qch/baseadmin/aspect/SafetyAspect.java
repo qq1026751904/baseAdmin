@@ -41,19 +41,20 @@ public class SafetyAspect {
      */
     @Pointcut(value = "execution(public * cn.huanzi.qch.baseadmin.sys.*.controller.*.*(..)) || " +
             "execution(public * cn.huanzi.qch.baseadmin.*.controller.*.*(..))")
-    public void safetyAspect() {}
+    public void safetyAspect() {
+    }
 
     /**
      * 环绕通知
      */
     @Around(value = "safetyAspect()")
     public Object around(ProceedingJoinPoint pjp) {
-       try {
+        try {
 
-           //判断api加密开关是否开启
-           if("N".equals(SysSettingUtil.getSysSetting().getSysApiEncrypt())){
-               return pjp.proceed(pjp.getArgs());
-           }
+            //判断api加密开关是否开启
+            if ("N".equals(SysSettingUtil.getSysSetting().getSysApiEncrypt())) {
+                return pjp.proceed(pjp.getArgs());
+            }
 
             ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
             assert attributes != null;
@@ -91,7 +92,7 @@ public class SafetyAspect {
             //jackson
             ObjectMapper mapper = new ObjectMapper();
             //jackson 序列化和反序列化 date处理
-            mapper.setDateFormat( new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
+            mapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
 
             //执行方法之前解密，且只拦截post请求
             if ("post".equals(httpMethod) && hasDecrypt) {
@@ -120,7 +121,7 @@ public class SafetyAspect {
                 mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
                 //注：参数最好用Vo对象来接参，单用String来接，args有长度但获取为空，很奇怪不知道为什么
-                if(args.length > 0){
+                if (args.length > 0) {
                     args[0] = mapper.readValue(decrypt, args[0].getClass());
                 }
             }
@@ -149,8 +150,8 @@ public class SafetyAspect {
             return o;
 
         } catch (Throwable e) {
-           //输出到日志文件中
-           log.error(ErrorUtil.errorInfoToString(e));
+            //输出到日志文件中
+            log.error(ErrorUtil.errorInfoToString(e));
             return Result.of(null, false, "加解密异常：\n\t" + e.getMessage());
         }
     }

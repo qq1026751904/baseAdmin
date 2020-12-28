@@ -15,15 +15,16 @@ spring:
   #修改thymeleaf访问根路径
   thymeleaf:
     prefix: classpath:/view/
+    cache: false
 
   #mvc接收参数时对日期进行格式化
-  mvc:
-    date-format: yyyy-MM-dd HH:mm:ss
+#  mvc:
+#    date-format: yyyy-MM-dd HH:mm:ss
 
   #jackson对响应回去的日期参数进行格式化
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: GMT+8
 
   #打印SQL
   jpa:
@@ -45,9 +46,7 @@ spring:
     password: root123
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-#是否需要输入验证码
-captcha:
-  enable: false
+
 
 ---
 ##### prod 配置 #######
@@ -61,6 +60,3 @@ spring:
     password: root123
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-#是否需要输入验证码
-captcha:
-  enable: true

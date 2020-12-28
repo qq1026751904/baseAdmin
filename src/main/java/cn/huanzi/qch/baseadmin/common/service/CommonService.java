@@ -24,4 +24,7 @@ public interface CommonService<V, E,T> {
     Result<V> save(V entityVo);
 
     Result<T> delete(T id);
+
+    Result<V> insert(V entityVo);
+
 }

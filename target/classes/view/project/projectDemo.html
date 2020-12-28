@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>项目创建</title>
+    <!-- 引入公用部分 -->
+    <script th:replace="common/head::static"></script>
+</head>
+<body>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+    <legend>项目创建</legend>
+</fieldset>
+<form class="layui-form" action="" id = "project" lay-filter="project">
+    <div class="layui-form-item">
+        <label class="layui-form-label">标题</label>
+        <div class="layui-input-block">
+            <input type="text" id="title" name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">类型</label>
+        <div class="layui-input-inline">
+            <select id="type" name="type" lay-filter="type">
+                <option value=""></option>
+                <option value="0">A型</option>
+                <option value="1">B型</option>
+                <option value="2">C型</option>
+                <option value="3">D型</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">负责人</label>
+        <div class="layui-input-inline">
+            <input type="text" id="chargePerson" name="chargePerson" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">开始时间</label>
+        <div class="layui-input-inline">
+            <input type="text" name="startTime" id="startTime" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">截止时间</label>
+        <div class="layui-input-inline">
+            <input type="text" name="deadline" id="deadline" placeholder="请选择日期" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">优先级</label>
+        <div class="layui-input-inline">
+            <select id="priority" name="priority" lay-filter="priority">
+                <option value=""></option>
+                <option value="0">最高</option>
+                <option value="1">较高</option>
+                <option value="2">普通</option>
+                <option value="3">较低</option>
+                <option value="4">最低</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">参与人</label>
+        <div class="layui-input-block">
+            <input type="text" id="participants" name="participants" autocomplete="off" placeholder="请输入参与人，以“，”分割" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">描述</label>
+        <div class="layui-input-block">
+            <textarea placeholder="请输入内容" class="layui-textarea" id="describes" name="describes"></textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="button" class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+<script>
+    layui.use(['form', 'layedit', 'laydate'], function(){
+        var form = layui.form
+            ,layer = layui.layer
+            ,layedit = layui.layedit
+            ,laydate = layui.laydate
+            ,$ = layui.jquery;
+
+        //日期
+        laydate.render({
+            elem: '#startTime',
+            trigger: 'click',
+            value: new Date()
+        });
+        laydate.render({
+            elem: '#deadline',
+            trigger: 'click'
+        });
+
+        //监听提交
+        form.on('submit(demo1)', function(obj){
+            // layer.alert(JSON.stringify(obj.field), {
+            //     title: '最终的提交信息'
+            // });
+            // return false;
+            let zhi = $('#project').serializeObject();
+            layer.confirm('确认提交吗？', function () {
+                $.ajax({
+                    url: "/sys/project/insetProject",
+                    dataType: "json",
+                    async: true,
+                    data: zhi,
+                    type: "post",
+                    beforeSend: function () {
+                    },
+                    success: function (msg) {
+                        if (msg.data == 1) {
+                            layer.msg("提交成功!", {icon: 6});
+                        }
+                        if (msg.data == 2) {
+                            layer.msg("提交失败！", {icon: 5});
+                        }
+                    },
+                    error: function (msg) {
+                        alert(msg);
+                    }
+                });
+                setTimeout('location.reload()', 1000);
+            })
+        });
+
+
+
+    });
+</script>
+</body>
+</html>

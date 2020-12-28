@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>项目进度</title>
+</head>
+<body>
+<div class="weadmin-body">
+    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    <div id="main" style="width: 100%;height:400px;"></div>
+</div>
+<script src="/js/dist/echarts.min.js"></script>
+<script th:replace="common/head::static"></script>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    var labelRight = {
+        normal: {
+            position: 'right'
+        }
+    };
+    $(function () {
+        getData();
+    });
+    function  getData() {
+        $.ajax({
+            type: 'post',
+            dataType: 'json',
+            url:  '/sys/project/getProjectStatueNumber',
+            data: {},
+            cache: false,
+            async: true,
+            success: function (data) {
+                var data = data.data;
+                var data1 = new Array();
+                var data2 = new Array();
+                for(var i=0; i < data.mapName.length; i++){
+                    data1[i] = data.mapName[i];
+                    data2[i] = data.mapValue[i];
+                }
+                //alert(JSON.stringify(data));
+                var myChart = echarts.init(document.getElementById('main'));
+
+                // 指定图表的配置项和数据
+                option = {
+                    title: {
+                        text: '进度统计'
+                    },
+                    tooltip: {
+                        trigger: 'axis',
+                        formatter: "进度 : {b} <br/>数量: {c}(件) "
+                    },
+                    grid: {
+                        left: '3%',
+                        right: '7%',
+                        bottom: '3%',
+                        containLabel: true
+                    },
+                    xAxis: {
+                        type: 'category',
+                        name: '（进度）',
+                        data: data1
+                    },
+                    yAxis: {
+                        type: 'value',
+                        name: '（/件）',
+                        minInterval: 1 //设置成1保证坐标轴分割刻度显示成整数。
+                    },
+                    series: [{
+                        barWidth: 120,
+                        name: '数量',
+                        type: 'bar',
+                        // smooth: true,//线条平滑展示，折线图起作用
+                        // barCategoryGap: 25,//用于设置不同类目之间的间距
+                        lineStyle: {
+                            normal: {
+                                width: 3,
+                                shadowColor: 'rgba(0,0,0,0.4)',
+                                shadowBlur: 10,
+                                shadowOffsetY: 10
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                color: function(params) {
+                                    //注意，如果颜色太少的话，后面颜色不会自动循环，最好多定义几个颜色
+                                    var colorList = ['red','yellow', 'orange', 'green', 'cyan','violet', 'purple'];
+                                    //给大于颜色数量的柱体添加循环颜色的判断
+                                    if (params.dataIndex >= colorList.length) {
+                                        index = params.dataIndex - colorList.length;
+                                    }
+                                    return colorList[params.dataIndex]
+                                }
+                            }
+                        },
+                        data: data2
+                    }]
+                };
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.showLoading();
+                myChart.setOption(option);
+                myChart.hideLoading();
+            }
+        });
+    }
+</script>
+</body>
+</html>

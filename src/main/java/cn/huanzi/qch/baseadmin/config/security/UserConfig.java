@@ -29,6 +29,7 @@ public class UserConfig implements UserDetailsService {
         //查询用户
         SysUserVo sysUserVo = sysUserService.findByLoginName(username).getData();
         //查询权限
+        System.err.println("==>sysUserAuthorityService.findByUserId<==");
         List<SysUserAuthorityVo> sysUserAuthorityVoList = sysUserAuthorityService.findByUserId(sysUserVo.getUserId()).getData();
         StringBuilder authorityList = new StringBuilder();
         for (int i = 0; i < sysUserAuthorityVoList.size(); i++) {
