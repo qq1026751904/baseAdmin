@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75403942-e227-45f4-85e8-27ce9dd0d7e0" name="Default Changelist" comment="project完成">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/pojo/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/pojo/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/repository/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/vo/ProjectVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/vo/ProjectVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/common/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/common/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/project/projectSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/project/projectSurvey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.class" afterDir="false" />
+    <list default="true" id="75403942-e227-45f4-85e8-27ce9dd0d7e0" name="Default Changelist" comment="@table报错+页面分页布局+更改密码">
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/common/service/CommonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/common/service/CommonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/project/pojo/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/project/pojo/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/project/vo/ProjectVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/project/vo/ProjectVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/common/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/common/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/project/projectSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/project/projectSurvey.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +350,7 @@
       <workItem from="1609204518798" duration="527000" />
       <workItem from="1609205081595" duration="60000" />
       <workItem from="1609205152360" duration="1138000" />
-      <workItem from="1609207030444" duration="7104000" />
+      <workItem from="1609207030444" duration="7408000" />
     </task>
     <task id="LOCAL-00001" summary="原版本">
       <created>1602646479018</created>
@@ -406,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609141073316</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="@table报错+页面分页布局+更改密码">
+      <created>1609220021894</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609220021894</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -479,7 +481,9 @@
     <MESSAGE value="@Autowired改@Resource" />
     <MESSAGE value="@Resource-@Autowired" />
     <MESSAGE value="project完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="project完成" />
+    <MESSAGE value="完成" />
+    <MESSAGE value="@table报错+页面分页布局+更改密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="@table报错+页面分页布局+更改密码" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
