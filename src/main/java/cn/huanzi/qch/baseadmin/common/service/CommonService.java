@@ -27,4 +27,6 @@ public interface CommonService<V, E,T> {
 
     Result<V> insert(V entityVo);
 
+    Result<V> update(V entityVo);
+
 }

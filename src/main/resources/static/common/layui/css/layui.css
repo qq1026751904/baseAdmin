@@ -2791,7 +2791,8 @@ a cite {
 }
 
 .layui-table, .layui-table-view {
-    margin: 10px 0
+    /*margin: 10px 0*/
+    margin: 0 0
 }
 
 .layui-flow-more {

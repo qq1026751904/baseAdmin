@@ -4,25 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75403942-e227-45f4-85e8-27ce9dd0d7e0" name="Default Changelist" comment="@Resource-@Autowired">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/BaseAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/BaseAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/aspect/SafetyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/aspect/SafetyAspect.java" afterDir="false" />
+    <list default="true" id="75403942-e227-45f4-85e8-27ce9dd0d7e0" name="Default Changelist" comment="project完成">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/common/service/CommonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/config/security/UserConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/util/CodeDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/util/CodeDOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/common/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/common/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/pojo/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/pojo/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/repository/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/service/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/vo/ProjectVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/project/vo/ProjectVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/common/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/common/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/common/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/common/layui/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/project/projectSurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/project/projectSurvey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/huanzi/qch/baseadmin/user/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +225,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -357,7 +351,11 @@
       <workItem from="1608857826599" duration="24000" />
       <workItem from="1608857873176" duration="289000" />
       <workItem from="1608858175905" duration="23545000" />
-      <workItem from="1609117798964" duration="16278000" />
+      <workItem from="1609117798964" duration="18043000" />
+      <workItem from="1609204518798" duration="527000" />
+      <workItem from="1609205081595" duration="60000" />
+      <workItem from="1609205152360" duration="1138000" />
+      <workItem from="1609207030444" duration="7104000" />
     </task>
     <task id="LOCAL-00001" summary="原版本">
       <created>1602646479018</created>
@@ -401,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602813723593</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="project完成">
+      <created>1609141073316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609141073316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -473,7 +478,8 @@
     <MESSAGE value="弹窗优化" />
     <MESSAGE value="@Autowired改@Resource" />
     <MESSAGE value="@Resource-@Autowired" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Resource-@Autowired" />
+    <MESSAGE value="project完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="project完成" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

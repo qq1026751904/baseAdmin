@@ -2,7 +2,6 @@ package cn.huanzi.qch.baseadmin.project.vo;
 
 import cn.huanzi.qch.baseadmin. common.pojo.PageCondition;import lombok.Data;
 import java.io.Serializable;
-import java.time.LocalDate;
 
 @Data
 public class ProjectVo extends PageCondition implements Serializable {

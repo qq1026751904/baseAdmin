@@ -19,10 +19,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public Result<SysUserVo> confirmPassword(String oldPassword) {
         SysUserVo sysUserVo = sysUserService.findByLoginName(SecurityUtil.getLoginUser().getUsername()).getData();
-        Result<SysUserVo> result = Result.of(null,true,"");
+        Result<SysUserVo> result = Result.of(null,false,"你输入的原密码有误！");
         //确认旧密码
-        if(!sysUserVo.getPassword().equals(MD5Util.getMD5(oldPassword))){
-            result = Result.of(null,false,"请确认，你输入的原密码错误！");
+        if(sysUserVo.getPassword().equals(MD5Util.getMD5(oldPassword))){
+            result = Result.of(null,true,"");
         }
         return result;
     }
@@ -31,13 +31,10 @@ public class UserServiceImpl implements UserService {
     public Result<SysUserVo> updatePassword(String oldPassword, String newPassword) {
         SysUserVo sysUserVo = sysUserService.findByLoginName(SecurityUtil.getLoginUser().getUsername()).getData();
         Result<SysUserVo> result = Result.of(null,false,"修改失败，你输入的原密码错误！");
-        //确认旧密码
-        if(sysUserVo.getPassword().equals(MD5Util.getMD5(oldPassword))){
-            sysUserVo.setPassword(MD5Util.getMD5(newPassword));
-            result = sysUserService.save(sysUserVo);
-            //置空隐私数据
-            result.getData().setPassword(null);
-        }
+        sysUserVo.setPassword(MD5Util.getMD5(newPassword));
+        result = sysUserService.update(sysUserVo);
+        //置空隐私数据
+        result.getData().setPassword(null);
         return result;
     }
 
